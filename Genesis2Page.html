@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARK: Genesis Part 2</title>
+    <link rel="stylesheet" href="Genesis2Styles.css"> <!-- Подключаем отдельный CSS файл для Genesis2 -->
+    <style>
+        /* Пульсирующая анимация для текста */
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: scale(1.2);
+                opacity: 0.8;
+            }
+        }
+
+        /* Применение анимации к каждому символу в ссылках с задержкой */
+        .nav-menu a span {
+            display: inline-block;
+            animation: pulse 1.5s infinite;
+        }
+
+        .nav-menu a span:nth-child(1) { animation-delay: 0s; }
+        .nav-menu a span:nth-child(2) { animation-delay: 0.1s; }
+        .nav-menu a span:nth-child(3) { animation-delay: 0.2s; }
+        .nav-menu a span:nth-child(4) { animation-delay: 0.3s; }
+        .nav-menu a span:nth-child(5) { animation-delay: 0.4s; }
+        /* Добавьте больше, если в тексте больше символов */
+    </style>
+</head>
+
+<body class="genesis-bg"> <!-- Класс для фона страницы Genesis Part 2 -->
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" alt="Логотип">
+            </a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#section1"><span>Н</span><span>а</span>&nbsp;<span>г</span><span>л</span><span>а</span><span>в</span><span>н</span><span>у</span><span>ю</span></a></li>
+                    <li><a href="#section2"><span>Д</span><span>о</span><span>п</span>.&nbsp;<span>и</span><span>н</span><span>ф</span><span>о</span><span>р</span><span>м</span><span>а</span><span>ц</span><span>и</span><span>я</span></a></li>
+                    <li><a href="#section3"><span>К</span><span>о</span><span>н</span><span>т</span><span>а</span><span>к</span><span>т</span><span>ы</span></a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>ARK: Genesis Part 2</h1>
+
+        <h2>Описание карты</h2>
+        <p>Genesis Part 2 — это финальная глава истории ARK: Survival Evolved. В этом дополнении игроки перемещаются на огромный космический корабль, разделённый на два биома — Эдем и Пустоту. Карта предлагает разнообразные задания, новый набор существ и возможность использования улучшенных технологий.</p>
+
+        <h2>Новые уникальные существа</h2>
+        <ul>
+            <li><strong>Астродельфис (Astrodelphis)</strong> — Космическое существо, напоминающее дельфина.
+                <img src="img/Genesis2_img/Astrodelphis_.webp" alt="Астродельфис" class="creature-image">
+            </li>
+            <li><strong>Шадоумейн (Shadowmane)</strong> — Быстрое существо, которое может становиться невидимым.
+                <img src="img/Genesis2_img/1280px-Shadowmane_Image.webp" alt="Шадоумейн" class="creature-image">
+            </li>
+            <li><strong>Тек-стридер (Tek Stryder)</strong> — Гигантская роботизированная машина.
+                <img src="img/Genesis2_img/Tek_Stryder.webp" alt="Тек-стридер" class="creature-image">
+            </li>
+            <li><strong>Р-Рекс (R-Rex)</strong> — Вариант Тираннозавра с улучшенными характеристиками.
+                <img src="img/Genesis2_img/Tek_Rex.jpg" alt="Р-Рекс" class="creature-image">
+            </li>
+            <li><strong>Мэйвинг (Maewing)</strong> — Полуутконос, полу-летун.
+                <img src="img/Genesis2_img/Maewing_.webp" alt="Мэйвинг" class="creature-image">
+            </li>
+        </ul>
+    </div>
+
+
+    <footer>
+        <p>&copy; 2024 ARK 2. Все права не мирное.</p>
+    
+    </footer>
+    
+
+
+
+</body>
+</html>

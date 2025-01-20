@@ -1,0 +1,71 @@
+/* Установка фонового изображения для всей страницы */
+body {
+    background-image: url('Extinction_img/Extinction_Poster.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+/* Основной контент */
+.extinction-content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6); /* Полупрозрачный фон для контента */
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #39FF14; /* Ярко-зеленый цвет для заголовков */
+}
+
+.creatures, .biomes, .items {
+    margin-bottom: 20px;
+}
+
+.creature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.creature img {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Стили для списков */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Стили для футера */
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #ccc;
+    font-size: 14px;
+}

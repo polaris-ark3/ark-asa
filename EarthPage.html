@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARK: Scorched Earth</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Подключение стилей -->
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="foter.css">
+
+    <style>
+        /* Анимация расширения букв поочередно */
+        @keyframes letter-expand {
+            0%, 100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: scale(1.5);
+                opacity: 0.8;
+            }
+        }
+
+        .animated-text span {
+            display: inline-block;
+            animation: letter-expand 1.5s infinite;
+        }
+
+        .animated-text span:nth-child(1) { animation-delay: 0s; }
+        .animated-text span:nth-child(2) { animation-delay: 0.1s; }
+        .animated-text span:nth-child(3) { animation-delay: 0.2s; }
+        .animated-text span:nth-child(4) { animation-delay: 0.3s; }
+        .animated-text span:nth-child(5) { animation-delay: 0.4s; }
+        .animated-text span:nth-child(6) { animation-delay: 0.5s; }
+        .animated-text span:nth-child(7) { animation-delay: 0.6s; }
+        .animated-text span:nth-child(8) { animation-delay: 0.7s; }
+    </style>
+</head>
+
+<body class="earth-bg"> <!-- Класс для фона страницы Scorched Earth -->
+
+
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" alt="Логотип">
+            </a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="NoArksCirkle.html">На главную</a></li> 
+                    <li><a href="ItsAberationRun.html">Доп. информация</a></li>
+                    <li><a href="NoContactsArks.html">Контакты</a></li> <!-- Обновленная ссылка -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    
+    <div class="back-to-home">
+        <a href="index.html">
+            <img src="img/logo.png" alt="На главную" class="home-logo" width="425" height="240">
+        </a>
+    </div>
+
+    <div class="container">
+        <h1 class="animated-text">
+            <!-- Разбиваем текст на буквы для анимации -->
+            <span>S</span><span>c</span><span>o</span><span>r</span><span>c</span><span>h</span><span>e</span><span>d</span>
+            <span>&nbsp;</span>
+            <span>E</span><span>a</span><span>r</span><span>t</span><span>h</span>
+        </h1>
+
+        <h2>Описание карты</h2>
+        <p>Scorched Earth — это уникальная карта, представляющая собой пустыню с экстремальными условиями. Здесь вы столкнетесь с новыми существами, погодными вызовами и редкими ресурсами.</p>
+
+        <h2>Существа</h2>
+        <ul>
+            <li>Виверна (Wyvern) — можно приручить, только вырастив из яйца</li>
+            <li>Каменный элементаль (Rock Elemental) — можно приручить с помощью взрывчатки</li>
+            <li>Шипастый дракон (Thorny Dragon) — можно приручить</li>
+            <li>Феникс (Phoenix) — приручается только во время супер-жары</li>
+        </ul>
+
+        <h2>Ресурсы</h2>
+        <ul>
+            <li>Нефть</li>
+            <li>Редкие цветы и грибы</li>
+            <li>Соль и песок</li>
+        </ul>
+
+        <h2>Особенности карты</h2>
+        <ul>
+            <li>Экстремальная жара</li>
+            <li>Бури и песчаные вихри</li>
+            <li>Ограниченные источники воды</li>
+            <li>Редкие ресурсы и уникальные пещеры</li>
+        </ul>
+    </div>
+
+    
+    
+    
+    <footer>
+        <p>&copy; 2024 ARK 2. Все права не мирное.</p>
+    
+    </footer>
+    
+    
+    
+</body>
+</html>

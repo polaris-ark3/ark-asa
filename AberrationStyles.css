@@ -1,0 +1,49 @@
+/* Фон для страницы Aberration */
+body.aberration-bg {
+    background-image: url('img/Aberration_img/Aberration_Background.jpg'); /* Замените на правильный путь к фону */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding-top: 100px; /* Отступ для хедера */
+}
+
+
+
+/* Основной контейнер для содержимого */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(250, 247, 247, 0.7);
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Эффект свечения текста для заголовков */
+.glow-text h1, .glow-text h2 {
+    color: #ffffff;
+    text-shadow: 0 0 5px #39FF14, 0 0 10px #39FF14, 0 0 15px #39FF14;
+}
+/* Светящийся текст для всей страницы */
+body {
+    color: #39FF14; /* Основной цвет текста (зеленый) */
+    background-color: #111; /* Темный фон для контраста */
+    font-family: Arial, sans-serif;
+    text-shadow: 0 0 5px #39FF14, 0 0 10px #39FF14, 0 0 15px #39FF14, 0 0 20px #39FF14; /* Эффект свечения */
+}
+
+/* Светящийся эффект для заголовков */
+h1, h2, h3 {
+    color: #39FF14;
+    text-shadow: 0 0 5px #39FF14, 0 0 10px #39FF14, 0 0 15px #39FF14, 0 0 20px #39FF14;
+}
+
+/* Светящийся эффект для параграфов */
+p {
+    color: #39FF14;
+    text-shadow: 0 0 5px #39FF14, 0 0 10px #39FF14, 0 0 15px #39FF14, 0 0 20px #39FF14;
+}

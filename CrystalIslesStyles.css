@@ -1,0 +1,58 @@
+/* Базовые стили */
+body {
+    background-image: url('img/Cristal_img/The_White_Shoals_(Crystal_Isles).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* Контейнер */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Полупрозрачный фон */
+    border-radius: 10px;
+}
+
+/* Заголовки */
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Стили для объектов */
+.object {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 15px; /* Отступ между картинкой и текстом */
+}
+
+.object img {
+    max-width: 200px; /* Размер картинок одинаковый */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* Стили списков */
+ul {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: #ccc;
+    border-radius: 0 0 10px 10px;
+}

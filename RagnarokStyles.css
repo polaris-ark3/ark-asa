@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/1624538892_preview_Swamp.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    position: relative;
+}
+
+/* Заголовок с эффектом песка */
+.animated-title {
+    font-size: 48px;
+    color: #39FF14;
+    position: relative;
+    display: inline-block;
+    animation: sand-crumble 5s ease-in-out forwards;
+    overflow: hidden;
+}
+
+/* Анимация распада на песок */
+@keyframes sand-crumble {
+    0% {
+        opacity: 1;
+        clip-path: inset(0);
+    }
+    25% {
+        clip-path: inset(0 10% 0 0);
+        transform: translateY(0);
+    }
+    50% {
+        clip-path: inset(0 40% 50% 0);
+        transform: translateY(20px);
+    }
+    75% {
+        clip-path: inset(50% 70% 80% 0);
+        transform: translateY(50px);
+        opacity: 0.5;
+    }
+    100% {
+        clip-path: inset(100% 100% 100% 100%);
+        transform: translateY(100px);
+        opacity: 0;
+    }
+}
+
+/* Анимация сбора текста */
+@keyframes sand-gather {
+    0% {
+        clip-path: inset(100% 100% 100% 100%);
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    25% {
+        clip-path: inset(50% 70% 80% 0);
+        transform: translateY(50px);
+        opacity: 0.5;
+    }
+    50% {
+        clip-path: inset(0 40% 50% 0);
+        transform: translateY(20px);
+    }
+    75% {
+        clip-path: inset(0 10% 0 0);
+        transform: translateY(0);
+    }
+    100% {
+        clip-path: inset(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Для повтора сбора текста */
+.animated-title:hover {
+    animation: sand-gather 5s ease-in-out forwards;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 1200px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ccc;
+    padding: 10px;
+    border-top: 2px solid #39FF14;
+    margin-top: 20px;
+}

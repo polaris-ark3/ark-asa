@@ -1,0 +1,97 @@
+/* Фон для страницы Valguero */
+body.valguero-bg {
+    background-image: url('img/Valguero_2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding-top: 100px; /* Отступ для хедера */
+    margin: 0;
+}
+
+/* Хедер */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9); /* Полупрозрачный белый фон */
+    padding: 15px 0;
+    z-index: 1000;
+    border-bottom: 3px solid #39FF14; /* Зеленая рамка снизу */
+    box-shadow: 0 0 10px #39FF14; /* Зеленое свечение */
+}
+
+/* Контейнер внутри хедера */
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Логотип */
+.logo img {
+    width: 120px; /* Размер логотипа */
+    height: auto;
+}
+
+/* Стили для навигации */
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin-left: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #00ff00; /* Зеленый цвет при наведении */
+}
+
+/* Основной контент */
+.content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6); /* Полупрозрачный темный фон */
+    border-radius: 8px;
+}
+
+/* Заголовки */
+h1, h2 {
+    color: #39FF14; /* Ярко-зеленый цвет заголовков */
+}
+
+/* Списки */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #ccc;
+    font-size: 14px;
+    margin-top: 20px;
+}

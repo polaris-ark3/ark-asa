@@ -1,0 +1,48 @@
+/* Основной стиль для NoArksCirkle */
+body {
+    background-color: #222;
+    color: #ff0000;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.warning-text {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ff0000;
+}
+
+.warning-image {
+    max-width: 80%;
+    height: auto;
+    border: 3px solid #ff0000;
+    border-radius: 8px;
+}
+
+.teleport-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+    background-color: #ffdd00; /* Желтый фон кнопки */
+    border: 2px solid #ffdd00;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.teleport-button:hover {
+    background-color: #ff0000;
+    color: #fff;
+}

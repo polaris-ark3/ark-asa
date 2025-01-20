@@ -1,0 +1,38 @@
+/* Стили для страницы с предупреждением о радиации */
+
+body {
+    background-color: #222; /* Темный фон */
+    color: #800080; /* Фиолетовый цвет текста */
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.warning-container {
+    text-align: center;
+}
+
+.warning-image {
+    max-width: 80%; /* Ограничение размера изображения */
+    height: auto;
+    margin-bottom: 20px;
+    border: 5px solid #800080; /* Фиолетовая рамка */
+    border-radius: 8px;
+}
+
+.warning-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.warning-text a {
+    color: #ff00ff; /* Яркий фиолетовый для ссылки */
+    text-decoration: underline;
+}
+
+.warning-text a:hover {
+    color: #d700d7;
+}
